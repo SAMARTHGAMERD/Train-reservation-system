@@ -1,0 +1,51 @@
+
+
+/*Navbar*/
+
+* {
+    padding:0;
+    font-family: 'Poppins', monospace;
+}
+
+#unordered_list {
+    list-style: none;
+    background: #2a2f3b;
+    border-radius: 0.5em;
+}
+
+#unordered_list li {
+    display: inline-block;
+    position: relative;
+}
+
+#unordered_list li a {
+    display: block;
+    padding: 20px;
+    padding-left: 60px ;
+    padding-right: 60px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+#unordered_list li ul.dropdown1 li {
+    display: block;
+}
+
+#unordered_list li ul.dropdown1 {
+    width: 100%;
+    background: #323741;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+#unordered_list li a:hover {
+    background: #646464;
+}
+
+#unordered_list li:hover ul.dropdown1 {
+    display: block;
+}
+   
